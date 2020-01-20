@@ -44,7 +44,7 @@ public class ObjectEquip : MonoBehaviour {
 
         Vector3 distance = this.transform.position - obj.transform.position;
 
-        Debug.Log("bitch" + distance);
+      
 
         if (dist < 3 && dist > 0 &&  Input.GetKeyDown("n"))
         {
